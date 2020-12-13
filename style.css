@@ -58,16 +58,17 @@ body{
 
 .panel.active h3 {
     opacity: 1;
+    transition: opacity 0.3s east-in 0.4s;
 }
 
 /* Styles In Here Will take effect only if screen is under 480px */
-@media(max-width: 480px) {
+@media (max-width: 480px) {
     .container{
         width: 100vw;
     }
     /* small screens only 3 images past 480 shows 5 */
     .panel:nth-of-type(4),
-    .panel:nth-of-type(5){
+    .panel:nth-of-type(5) { 
     display: none;
 
 }
