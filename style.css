@@ -30,7 +30,7 @@ body{
     background-repeat: no-repeat;
     height: 80vh;
     border-radius: 50px;
-    color: rgba(99, 50, 212, 0.493);
+    color: #b8002a;
     cursor: crosshair;
     flex: 0.5;
     margin: 10px;
